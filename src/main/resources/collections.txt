@@ -1,0 +1,56 @@
+Duration 4h 2m
+
+1. What Are Collections and Why Use Them? 12m 13s
+Introduction 1m 48s
+The Problem with Arrays 4m 38s
+Why You Should Use Collections 5m 46s
+
+2. Defining and Iterating Collections 28m 56s
+Introduction 1m 25s
+Collection of Collections 9m 34s
+Collection Behaviors 3m 27s
+Collection Behaviors (Live Coding) 13m 19s
+Summary 1m 10s
+
+3. Collections with Iteration Order: Lists 36m 51s
+Introduction 1m 21s
+Key Features 4m 15s
+Live Coding with Lists 18m 21s
+List Implementations 11m 2s
+Summary 1m 50s
+
+4. Collection with Uniqueness: Sets 40m 54s
+Introduction 2m 14s
+Product Catalogue Demo 3m 56s
+Set Implementations 23m 45s
+SortedSet and NavigableSet 4m 34s
+Product Catalogue Demo 2 4m 21s
+Summary 2m 1s
+
+5. Collections with Modification Order: Queues, Deques, and Stacks 39m 58s
+Introduction 1m 28s
+Queues 3m 52s
+Queues (Live Coding) 15m 14s
+Priority Queues 1m 12s
+Priority Queues (Live Coding) 2m 56s
+Stacks and Deques 4m 53s
+Stacks and Deques (Live Coding) 6m 5s
+Implementations and Summary 4m 15s
+
+6. Collections of Pairs: Maps 1h 3m 36s
+Introduction 2m 47s
+Why Use a Map? 13m 47s
+Views Over Maps 7m 13s
+Sorted and Navigable Maps 5m 57s
+Java 8 Enhancements 10m 59s
+Implementations 7m 25s
+Mutable HashMap Keys 2m 29s
+TreeMap, LinkedHashMap, and WeakHashMap 8m 7s
+EnumMap and Summary 4m 47s
+
+7. Collection Operations 20m 3s
+Introduction 1m 31s
+Collection Algorithms 4m 58s
+Collection Factories 6m 25s
+Collection Utilities 2m 53s
+Course Summary and Conclusion 4m 13s
