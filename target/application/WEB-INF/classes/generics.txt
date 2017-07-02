@@ -1,0 +1,57 @@
+1. The What and Why of Java Generics 20m 49s
+Introduction 3m 47s
+An Example Class: Circular Buffer 5m 50s
+Boilerplate vs Type Safety 5m 3s
+Making our Circular Buffer Generic 3m 35s
+Summary 2m 33s
+
+2. Java's Generic Collections and Friends 30m 5s
+Introduction 2m 22s
+The Problem with Arrays 4m 43s
+Lists 8m 31s
+Sets 3m 40s
+Maps 7m 13s
+Conclusions3m 33s
+
+3. Generic Classes and Interfaces 26m 26s
+Introduction 2m 55s
+Implementing a Generic Type 6m 27s
+Passing a Parameter to a Generic Type 6m 29s
+Type Bounds 8m 8s
+Conclusion 2m 25s
+
+4. Generics on Methods 15m 29s
+Introduction 3m 36s
+Context and Motivation 4m 42s
+How to Write Generic Methods 5m 30s
+Summary 1m 39s
+
+5. Wildcards 33m 39s
+Introduction1m 44s
+The Substitution Principle 9m 2s
+Upper Bounded Wildcards 5m 15s
+Lower Bounded Wildcards 7m 59s
+Unbounded Wildcards 5m 59s
+Conclusion 3m 37s
+
+6. Raw Types and Compatibility 49m 8s
+The Compatibility Problem 4m 31s
+Rawtypes 8m 8s
+Erasure 10m 0s
+The Implications of Erasure 14m 0s
+Reified Types and Arrays 8m 56s
+Summary 3m 31s
+
+7. Reflection 25m 43s
+Introduction 2m 21s
+Class Literals 7m 38s
+Reflecting Types 8m 40s
+Reflecting Generic Information 5m 13s
+Summary 1m 48s
+
+8. Advanced Topics 32m 18s
+Introduction 2m 5s
+Functional Interfaces 4m 35s
+Type Inference & Lambda Expressions 8m 32s
+Intersection Types 11m 3s
+Conclusions & Recap 6m 0s
