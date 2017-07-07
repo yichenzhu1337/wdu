@@ -23,14 +23,4 @@ public class Train {
 
         System.exit(0);
     }
-
-    private String name;
-
-    public Train(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
 }

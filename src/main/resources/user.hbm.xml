@@ -3,21 +3,15 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
-<!--
-<!DOCTYPE hibernate-configuration PUBLIC
-        "-//Hibernate/Hibernate Configuration DTD//EN"
-        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
--->
-
 <hibernate-mapping>
-    <class name="com.whiteboard.models.User" table="USER">
+    <class name="com.whiteboard.models.User" table="user">
         <id name="userId" type="int" column="USER_ID">
-            <generator class="assigned"/>
+            <generator class="increment"/>
         </id>
-        <property name="username">
+        <property name="username" type="java.lang.String">
             <column name="USERNAME"/>
         </property>
-        <property name="createdBy">
+        <property name="createdBy" type="java.lang.String">
             <column name="CREATED_BY"/>
         </property>
         <property name="createdDate" type="date">

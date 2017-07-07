@@ -7,3 +7,5 @@ tomcat
 
 servlet
 jsp
+jpa/hibernate/jdbc
+jsf

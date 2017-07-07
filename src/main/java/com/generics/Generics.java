@@ -14,12 +14,12 @@ public class Generics {
     }
 
     static void print() {
-        System.out.println(getTrains());
+        //System.out.println(getTrains());
     }
 
-    public static Collection<Train> getTrains() {
-        trains.add(new Train("T1"));
+/*    public static Collection<Train> getTrains() {
+        //trains.add(new Train("T1"));
 
         return trains;
-    }
+    }*/
 }
