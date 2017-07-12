@@ -3,40 +3,58 @@ package com.whiteboard.models;
 import java.util.Date;
 
 public class User {
-    private int userId;
-    private String username;
-    private String createdBy;
-    private Date createdDate;
+    private int id;
+    private String email;
+    private String password;
+    private String permission; // admin, professor, student
+    private Date createdAt;
+    private Date updatedAt;
 
-    public String getUsername() {
-        return username;
+    public int getId() {
+        return id;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getCreatedBy() {
-        return createdBy;
+    public String getEmail() {
+        return email;
     }
 
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Date getCreatedDate() {
-        return createdDate;
+    public String getPassword() {
+        return password;
     }
 
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public int getUserId() {
-        return userId;
+    public String getPermission() {
+        return permission;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setPermission(String permission) {
+        this.permission = permission;
+    }
+
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Date getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
     }
 }

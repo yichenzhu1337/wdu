@@ -4,18 +4,21 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.whiteboard.models.User" table="user">
-        <id name="userId" type="int" column="USER_ID">
+    <class name="com.whiteboard.models.User" table="users">
+        <id name="id" type="int" column="id">
             <generator class="increment"/>
         </id>
-        <property name="username" type="java.lang.String">
-            <column name="USERNAME"/>
+        <property name="email" type="java.lang.String">
+            <column name="email"/>
         </property>
-        <property name="createdBy" type="java.lang.String">
-            <column name="CREATED_BY"/>
+        <property name="password" type="java.lang.String">
+            <column name="password"/>
         </property>
-        <property name="createdDate" type="date">
-            <column name="CREATED_DATE"/>
+        <property name="permission" type="java.lang.String">
+            <column name="permission"/>
+        </property>
+        <property name="createdAt" type="date">
+            <column name="createdAt"/>
         </property>
     </class>
 </hibernate-mapping>

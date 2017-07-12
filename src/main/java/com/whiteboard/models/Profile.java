@@ -1,40 +1,26 @@
 package com.whiteboard.models;
 
-public class Profile {
+import java.util.Date;
 
+public class Profile {
+    private int id;
     private String firstName;
     private String lastName;
-    private String dateOfBirth;
-    private String description;
-    private String nationality;
-    private String location;
-    private boolean status;
+    private String phoneNumber;
     private String imageUrl;
-    private String summonerUrl;
-    private boolean isPublic;
+    private Date createdAt;
+    private Date updatedAt;
 
-    public Profile(
-            String firstName,
-            String lastName,
-            String dateOfBirth,
-            String description,
-            String nationality,
-            String location,
-            boolean status,
-            String imageUrl,
-            String summonerUrl,
-            boolean isPublic
-    ) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.dateOfBirth = dateOfBirth;
-        this.description = description;
-        this.nationality = nationality;
-        this.location = location;
-        this.status = status;
-        this.imageUrl = imageUrl;
-        this.summonerUrl = summonerUrl;
-        this.isPublic = isPublic;
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -53,44 +39,12 @@ public class Profile {
         this.lastName = lastName;
     }
 
-    public String getDateOfBirth() {
-        return dateOfBirth;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getNationality() {
-        return nationality;
-    }
-
-    public void setNationality(String nationality) {
-        this.nationality = nationality;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public boolean isStatus() {
-        return status;
-    }
-
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getImageUrl() {
@@ -101,19 +55,15 @@ public class Profile {
         this.imageUrl = imageUrl;
     }
 
-    public String getSummonerUrl() {
-        return summonerUrl;
+    public Date getCreatedAt() {
+        return createdAt;
     }
 
-    public void setSummonerUrl(String summonerUrl) {
-        this.summonerUrl = summonerUrl;
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
     }
 
-    public boolean isPublic() {
-        return isPublic;
-    }
-
-    public void setPublic(boolean aPublic) {
-        isPublic = aPublic;
+    public Date getUpdatedAt() {
+        return updatedAt;
     }
 }

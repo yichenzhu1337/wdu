@@ -8,7 +8,7 @@ import com.whiteboard.models.*;
 public class Train {
 
     public static void main(String args[]) {
-        Session session = HibernateUtil.getSessionFactory().openSession();
+/*        Session session = HibernateUtil.getSessionFactory().openSession();
 
         session.beginTransaction();
         User user = new User();
@@ -21,6 +21,6 @@ public class Train {
         session.save(user);
         session.getTransaction().commit();
 
-        System.exit(0);
+        System.exit(0);*/
     }
 }

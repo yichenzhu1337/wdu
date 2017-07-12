@@ -26,16 +26,27 @@
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
 
-
+    <!-- Courses -->
     <servlet>
-        <servlet-name>helloWorld</servlet-name>
+        <servlet-name>courses</servlet-name>
+        <servlet-class>com.whiteboard.servlets.CourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>courses</servlet-name>
+        <url-pattern>/api/v1/courses/*</url-pattern>
+    </servlet-mapping>
+
+    <!-- Feeds -->
+    <servlet>
+        <servlet-name>feeds</servlet-name>
         <servlet-class>com.whiteboard.servlets.FeedServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>helloWorld</servlet-name>
-        <url-pattern>/hello-world</url-pattern>
+        <servlet-name>feeds</servlet-name>
+        <url-pattern>/api/v1/feeds</url-pattern>
     </servlet-mapping>
 
+    <!-- Profiles -->
     <servlet>
         <servlet-name>profiles</servlet-name>
         <servlet-class>com.whiteboard.servlets.ProfileServlet</servlet-class>

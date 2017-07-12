@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.whiteboard.models.Course" table="courses">
+
+        <id name="id" type="int" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="title" type="java.lang.String">
+            <column name="title"/>
+        </property>
+        <property name="code" type="java.lang.String">
+            <column name="code"/>
+        </property>
+
+        <property name="createdAt" type="date">
+            <column name="createdAt"/>
+        </property>
+        <property name="updatedAt" type="date">
+            <column name="updatedAt"/>
+        </property>
+
+    </class>
+</hibernate-mapping>

@@ -4,7 +4,6 @@ import java.util.*;
 
 import com.whiteboard.config.HibernateUtil;
 import com.whiteboard.models.Profile;
-import com.whiteboard.models.User;
 import org.hibernate.Session;
 
 public class ProfileRepository {
@@ -25,14 +24,16 @@ public class ProfileRepository {
         HibernateUtil.getSessionFactory().close();
     }
 
-    public User getById (int id) {
-        User loadedUser = session.get(User.class, 1);
+    public Profile getById (int id) {
+        Profile loadedUser = session.get(Profile.class, 1);
+
+        closeSession();
         return loadedUser;
     }
 
     public List<Profile> getProfilesAll () {
         List<Profile> profiles = new ArrayList<>();
-        //profiles.add(new Profile);
+        profiles.add(new Profile());
 
         return profiles;
     }
@@ -46,11 +47,13 @@ public class ProfileRepository {
      * Creates a new user in the db
      */
     public void create() {
-        User user = new User();
-        user.setUsername("Mukesh22");
-        user.setCreatedBy("Google223" + (int)(Math.random() * 101));
-        user.setCreatedDate(new Date());
-        session.save(user);
+        Profile profile = new Profile();
+        profile.setFirstName("Yi Chen");
+        profile.setLastName("Zhu");
+        profile.setPhoneNumber("1234567890");
+        profile.setCreatedAt(new Date());
+        profile.setUpdatedAt(new Date());
+        session.save(profile);
 
         //closeSession();
     }
