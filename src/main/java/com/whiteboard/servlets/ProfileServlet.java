@@ -15,11 +15,9 @@ public class ProfileServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, java.io.IOException {
 
-        String id = request.getParameter("id");
-        String[] url = request.getRequestURI().split("\\/");
-        PrintWriter printer = response.getWriter();
-        printer.println("id: " + id);
-        printer.println("Request URI: " + url[4]);
+        Object data = "Some data, can be a String or a Javabean";
+        request.setAttribute("data", data);
+        request.getRequestDispatcher("/profile.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)

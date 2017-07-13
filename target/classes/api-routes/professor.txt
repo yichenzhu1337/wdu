@@ -1,0 +1,39 @@
+Professor API endpoints
+==========================
+
+route type: POST
+route url: /professors
+description: Creates a professor and inserts it into the db
+-------------------------------------
+Request
+{
+    first_name: "John",
+    last_name: "Doe",
+    age: 40,
+    gender: "m"
+    department: "Computer Science"
+}
+
+Response
+{
+    id: 1,
+    first_name: "John",
+    last_name: "Doe",
+    age: 40,
+    gender: "m"
+    department: "Computer Science"
+}
+
+route type: GET
+route url: /professors/{id}
+description: Retrieves a professor by {id}
+-------------------------------------
+Response
+{
+    id: 1,
+    first_name: "John",
+    last_name: "Doe",
+    age: 40,
+    gender: "m"
+    department: "Computer Science"
+}
