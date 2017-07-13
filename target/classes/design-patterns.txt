@@ -2,3 +2,6 @@ Singleton
 Iterator
 Observer
 Strategy
+
+Factory
+Builder

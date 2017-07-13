@@ -10,19 +10,7 @@ public class MainRepository {
     }
 
     public static void main(String args[]) {
-/*      ProfileRepository profileRepository = new ProfileRepository();
-        profileRepository.create();
-        System.out.println(profileRepository.getById(2).getFirstName());*/
-
-        CourseRepositoryInterface courseRepository = new CourseRepository();
-        //courseRepository.create();
-        //System.out.println(courseRepository.getById(2).getTitle());
-        //courseRepository.updateById(1);
-
-        List<Course> courses = courseRepository.getAll();
-        for (Course course : courses) {
-            System.out.println(course.getTitle());
-        }
+        //UserRepository userRepository = new UserRepository();
 
         HibernateUtil.shutdown();
         System.exit(0);

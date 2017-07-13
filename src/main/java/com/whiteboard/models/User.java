@@ -10,6 +10,8 @@ public class User {
     private Date createdAt;
     private Date updatedAt;
 
+    private Account account = new Account();
+
     public int getId() {
         return id;
     }

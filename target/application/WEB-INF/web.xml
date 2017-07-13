@@ -26,6 +26,16 @@
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
 
+    <!-- Auth -->
+    <servlet>
+        <servlet-name>auth</servlet-name>
+        <servlet-class>com.whiteboard.servlets.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>auth</servlet-name>
+        <url-pattern>/api/v1/auth/*</url-pattern>
+    </servlet-mapping>
+
     <!-- Courses -->
     <servlet>
         <servlet-name>courses</servlet-name>

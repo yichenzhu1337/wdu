@@ -20,5 +20,11 @@
         <property name="createdAt" type="date">
             <column name="createdAt"/>
         </property>
+
+<!--        <component name="account">
+            <property name="firstName" type="java.lang.String">
+                <column name="firstName"/>
+            </property>
+        </component>-->
     </class>
 </hibernate-mapping>

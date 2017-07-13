@@ -50,12 +50,6 @@ public class CourseServlet extends HttpServlet {
             CourseRepositoryInterface courseRepository = new CourseRepository();
             Course course = courseRepository.getById((Integer.parseInt(id)));
 
-            /*
-            value.addProperty("id", course.getId());
-            value.addProperty("title", course.getTitle());
-            value.addProperty("code", course.getCode());
-            */
-
             String responseCourse = gson.toJson(course);
             printer.println(responseCourse);
         }
@@ -66,12 +60,8 @@ public class CourseServlet extends HttpServlet {
 
             String responseCourses = gson.toJson(courses);
 
-            //value.addProperty("data", mylist);
-
             printer.println(responseCourses);
         }
-
-        //printer.println(value);
     }
 
     /**
