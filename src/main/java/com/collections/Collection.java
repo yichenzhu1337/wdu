@@ -7,17 +7,15 @@ public class Collection {
     public static void main(String[] args) {
         System.out.println("===== Generics =====");
 
-        List<String> cars = new ArrayList<String>();
-        List<String> phones = new LinkedList<String>();
-        Set<String> set1 = new HashSet<String>();
-        Set<String> set2 = new TreeSet<String>();
+        List<String> cars = new ArrayList<>();
+        List<String> phones = new LinkedList<>();
+        Set<String> set1 = new HashSet<>();
+        Set<String> set2 = new TreeSet<>();
 
         Queue<String> queue = new PriorityQueue<String>();
         //LinkedList<String> deque = new Deque<String>();
 
-
         HashMap<String, String> new_cars = new HashMap<String, String>();
-
 
         set1.add("1");
         set1.add("2");

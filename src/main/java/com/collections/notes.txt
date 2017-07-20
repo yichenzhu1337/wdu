@@ -1,0 +1,15 @@
+Collection interface
+=======================
+size()
+isEmpty()
+add(element)
+addAll(collection)
+remove(element)
+removeAll(collection)
+retainAll(collection) -
+contains(element)
+containsAll(collection)
+clear() -
+
+Iterator
+-----------------------

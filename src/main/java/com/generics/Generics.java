@@ -1,25 +1,23 @@
 package com.generics;
 
 import com.collections.*;
-
 import java.util.*;
 import java.util.Collection;
 
 public class Generics {
 
-    private static Collection<Train> trains = new ArrayList<Train>();
+    private static Collection<Train> trains = new ArrayList<>();
 
     public static void main(String[] args) {
-        print();
+        trains.add(new Train("T1"));
+        trains.add(new Train("T2"));
+        trains.add(new Train("T3"));
+
+        System.out.println(trains);
     }
 
-    static void print() {
-        //System.out.println(getTrains());
-    }
-
-/*    public static Collection<Train> getTrains() {
-        //trains.add(new Train("T1"));
-
+    public static Collection<Train> getTrains() {
         return trains;
-    }*/
+    }
+
 }
