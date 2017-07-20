@@ -7,10 +7,13 @@ public class User {
     private String email;
     private String password;
     private String permission; // admin, professor, student
+    private Account account = new Account();
     private Date createdAt;
     private Date updatedAt;
 
-    private Account account = new Account();
+    public User() {
+        setAccount(new Account());
+    }
 
     public int getId() {
         return id;
@@ -42,6 +45,15 @@ public class User {
 
     public void setPermission(String permission) {
         this.permission = permission;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account acccount) {
+        this.account = account;
+        account.setUser(this);
     }
 
     public Date getCreatedAt() {

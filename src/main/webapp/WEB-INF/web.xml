@@ -33,6 +33,16 @@
         <url-pattern>/api/v1/course-materials/upload</url-pattern>
     </servlet-mapping>
 
+    <!-- Course Materials -->
+    <servlet>
+        <servlet-name>course-announcements</servlet-name>
+        <servlet-class>com.whiteboard.servlets.CourseMaterialServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>course-announcements</servlet-name>
+        <url-pattern>/api/v1/course-announcements/make</url-pattern>
+    </servlet-mapping>
+
     <!-- Feeds -->
     <servlet>
         <servlet-name>feeds</servlet-name>
