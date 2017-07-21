@@ -1,4 +1,4 @@
-package com.designpatterns;
+package com.designpatterns.singleton;
 
 public final class Singleton {
     private static volatile Singleton instance = null;
