@@ -1,5 +1,3 @@
-package cscc01.mockito;
-
 import java.util.List;
 
 public class Portfolio {

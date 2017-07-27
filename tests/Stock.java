@@ -1,5 +1,3 @@
-package cscc01.mockito;
-
 public class Stock {
 	   private String stockId;
 	   private String name;	
