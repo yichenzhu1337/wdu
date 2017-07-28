@@ -1,38 +1,43 @@
 package com.collections;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Collection {
 
     public static void main(String[] args) {
-        System.out.println("===== Generics =====");
+        int[] arr1;
+        int[] arr4 = new int[10];
+        int a[] = {33, 3, 4, 5};
+        int[] arr2;
+        int arr3[];
+        arr1 = new int[10];
+
+        System.out.println("===== Collections & Arrays =====");
 
         List<String> cars = new ArrayList<>();
-        List<String> phones = new LinkedList<>();
-        Set<String> set1 = new HashSet<>();
-        Set<String> set2 = new TreeSet<>();
-
-        Queue<String> queue = new PriorityQueue<String>();
-        //LinkedList<String> deque = new Deque<String>();
-
-        HashMap<String, String> new_cars = new HashMap<String, String>();
-
-        set1.add("1");
-        set1.add("2");
-        set1.add("2");
-        set1.add("3");
+        Set<String> animals = new HashSet<>();
+        HashMap<String, String> human = new HashMap<String, String>();
 
         cars.add("BMW");
         cars.add("Mercedes");
         cars.add("Volvo");
-
-        for (String car: cars) {
+        for (String car : cars) {
             System.out.println(car);
         }
 
-        System.out.println(set1.size());
-        for (String item: set1) {
+        animals.add("Cheetah");
+        animals.add("Leopard");
+        animals.add("Jaguar");
+        for (String item : animals) {
             System.out.println(item);
+        }
+
+        human.put("age", "10");
+        human.put("name", "John Doe");
+        human.put("height", "180cm");
+        for (Map.Entry<String, String> entry : human.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
         }
     }
 }

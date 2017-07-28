@@ -13,3 +13,6 @@ clear() -
 
 Iterator
 -----------------------
+
+
+https://docs.oracle.com/javase/tutorial/collections/implementations/index.html
