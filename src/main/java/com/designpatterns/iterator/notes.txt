@@ -1,0 +1,46 @@
+Concepts
+-------------------------
+- traversal
+- doesn't expose
+- decouples algorithms
+- sequential
+
+Examples:
+- java.util.Iterator
+- java.util.Enumeration
+
+Design Considerations
+--------------------------
+- interface based
+- factory method based
+- independent, fail fast *Java goes with this approach
+- enumerators, fail safe
+- Iterator, ConcreteIterator
+
+Pitfalls
+--------------------------
+- no access to index
+- uni-directional - only forward
+- a little faster
+
+Contrast to other patterns
+--------------------------
+
+iterator
+- interface based
+- algorithm is removed
+- no index
+- concurrent modification
+
+for loop
+- traversal in client
+- exposes an index -> i
+- Doesn't change the underlying object
+- typically slower
+
+Summary
+--------------------------
+- efficient way to traverse through an object
+- hides the algorithm from the client
+- simplifies the client with an interface
+- uses the foreach syntax in Java 1.5
