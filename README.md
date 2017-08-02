@@ -78,3 +78,8 @@ Pluralsight
 - Introduction to Spring MVC 4
 - Spring Boot: Efficient Development, Configuration, and Deployment
 - Maven Fundamentals
+
+- Understanding the Java Virtual Machine: Security
+- Understanding the Java Virtual Machine: Memory Management
+- Understanding the Java Virtual Machine: Class Loading and Reflection
+- Introduction to the Java API for WebSockets

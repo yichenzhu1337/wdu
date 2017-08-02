@@ -1,24 +1,24 @@
 Java Fundamentals: Generics - 3h 53m
 ===============================================
 
-1. The What and Why of Java Generics - 20m 49s
-Introduction - 3m 47s
+1. The What and Why of Java Generics - 20m 49s /
+Introduction - 3m 47s /
 An Example Class: Circular Buffer - 5m 50s
 Boilerplate vs Type Safety - 5m 3s
 Making our Circular Buffer Generic - 3m 35s
 Summary - 2m 33s
 
-2. Java's Generic Collections and Friends - 30m 5s
-Introduction - 2m 22s
-The Problem with Arrays - 4m 43s
-Lists - 8m 31s
-Sets - 3m 40s
-Maps - 7m 13s
-Conclusions - 3m 33s
+2. Java's Generic Collections and Friends - 30m 5s /
+Introduction - 2m 22s /
+The Problem with Arrays - 4m 43s /
+Lists - 8m 31s /
+Sets - 3m 40s /
+Maps - 7m 13s /
+Conclusions - 3m 33s /
 
 3. Generic Classes and Interfaces - 26m 26s
-Introduction - 2m 55s
-Implementing a Generic Type - 6m 27s
+Introduction - 2m 55s /
+Implementing a Generic Type - 6m 27s /
 Passing a Parameter to a Generic Type - 6m 29s
 Type Bounds - 8m 8s
 Conclusion - 2m 25s
