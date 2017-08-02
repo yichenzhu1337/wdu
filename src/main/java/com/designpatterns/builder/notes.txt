@@ -1,0 +1,14 @@
+Definition
+--------------------------
+The Builder design pattern simplifies the construction of complex objects and its
+representations so that the same construction process can create different representations
+
+Pizza Implementation
+--------------------------
+Waiter (Director)
+
+PizzaBuilder (Builder <<abstract>>)
+    HawaiianPizzaBuilder (ConcreteBuilder)
+    SpicyPizzaBuilder (ConcreteBuilder)
+
+Pizza (Product)

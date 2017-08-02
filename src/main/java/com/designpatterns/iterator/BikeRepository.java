@@ -1,7 +1,6 @@
 package com.designpatterns.iterator;
 
 import java.util.*;
-import java.util.function.Consumer;
 
 public class BikeRepository implements Iterable<String> {
 
@@ -45,8 +44,5 @@ public class BikeRepository implements Iterable<String> {
 
         return it;
     }
-}
-
-class BikeIterator {
 
 }
