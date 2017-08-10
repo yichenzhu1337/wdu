@@ -1,0 +1,18 @@
+Concepts
+-----------------
+Doesn't expose instantiation logic
+Defer to subclasses
+Common interface
+Specified by architecture, implemented by user
+
+Examples:
+Calendar
+ResourceBundle
+NumbersFormat
+
+Design Consideration
+-----------------------
+Factory is responsible for lifecycle
+Common interface
+Concrete classes
+Parameterized create method

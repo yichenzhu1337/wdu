@@ -1,0 +1,16 @@
+Concepts
+---------------
+plug adaptor
+convert interface into another interface
+legacy
+translates requests from client to the code it tries to adapt to
+client, adapter, adaptee
+
+Examples:
+Arrays -> Lists
+legacy -> new
+
+Streams - almost all stream classes
+
+Exercise
+---------------
