@@ -1,3 +1,3 @@
 public interface StockService {
-	   public double getPrice(Stock stock);
+    public double getPrice(Stock stock);
 }

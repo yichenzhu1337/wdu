@@ -3,3 +3,16 @@ mockito
 
 dbunit
 powermockito
+
+Process
+============
+Setup -> Execution -> Verification -> Teardown
+
+setup - creating the mock
+OrderDao mockOrderDao = Mockito.mock(OrderDao.class);
+
+setup - method stubbing
+Mockito.when(mockOrderDao.findById(idValue)).thenReturn(orderFixture);
+
+verification -
+Mockito.verify(mockOrderDao).findById(idValue);

@@ -1,5 +1,13 @@
 package com.designpatterns.strategy;
 
-public class Strategy {
+import java.io.Serializable;
+
+public class Strategy implements Comparable, Serializable {
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
+
 
 }
