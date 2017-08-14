@@ -49,10 +49,13 @@ Pluralsight
 - Java Fundamentals: Collections
 - Java Fundamentals: Generics
 - Java Fundamentals: Exception Handling
+
 - Java Fundamentals: Concurrency with Multithreading
+- Applying Concurrency and Multi-threading to Common Java Patterns
+- Advanced Java Concurrent Patterns
+- Scaling Java Applications Through Concurrency
 
 - Java Platform: Working with Databases Using JDBC
-- Applying Concurrency and Multi-threading to Common Java Patterns
 - Context and Dependency Injection (CDI 1.1)
 - Java Persistence API (JPA) 2.1
 - Bean Validation 1.1

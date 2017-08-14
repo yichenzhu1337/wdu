@@ -4,21 +4,22 @@ import java.io.Serializable;
 
 public final class Singleton implements Serializable {
 
-    private static volatile Singleton instance = null;
+    private static Singleton instance = null;
 
     private Singleton() {
     }
 
     public static Singleton getInstance() {
         if (instance == null) {
-            synchronized (Singleton.class) {
-                if (instance == null) {
-                    instance = new Singleton();
-                }
-            }
+            instance = new Singleton();
         }
 
         return instance;
+    }
+
+    protected Object test() {
+        System.out.println("test");
+        return getInstance();
     }
 
     // Some code

@@ -44,3 +44,6 @@ Summary
 - hides the algorithm from the client
 - simplifies the client with an interface
 - uses the foreach syntax in Java 1.5
+
+
+https://www.tutorialspoint.com/design_pattern/iterator_pattern.htm
