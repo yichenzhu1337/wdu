@@ -1,5 +1,9 @@
 package com.threads;
 
+import java.lang.management.ManagementFactory;
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class MainThreadExample {
 
     public static void main(String args[]) {
@@ -12,6 +16,22 @@ public class MainThreadExample {
         t2.start();
         t3.start();
         t4.start();
+
+        int delay = 5000;   // delay for 5 sec.
+        int interval = 1000;  // iterate every sec.
+        Timer timer = new Timer();
+
+        timer.scheduleAtFixedRate(new TimerTask() {
+            public void run() {
+                System.out.println("Hi adasd asda sd asdas das ");
+
+                for(int i = 0; i < 10; i ++) {
+                    System.out.println(i);
+                }
+            }
+        }, delay, interval);
+
+        System.out.println(ManagementFactory.getRuntimeMXBean().getName().split("@")[0]);
     }
 
 }
