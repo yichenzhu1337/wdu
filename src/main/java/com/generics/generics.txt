@@ -58,3 +58,8 @@ Functional Interfaces 4m 35s
 Type Inference & Lambda Expressions 8m 32s
 Intersection Types 11m 3s
 Conclusions & Recap 6m 0s
+
+Notes
+-------------------
+generic method
+generic class
