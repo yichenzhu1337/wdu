@@ -1,6 +1,6 @@
 package com.generics;
 
-public class Train {
+public class Train<T, U, V, W> {
 
     private String name;
 

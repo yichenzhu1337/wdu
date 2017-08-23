@@ -24,7 +24,7 @@ public class ProfileTest {
         Class<?> profileClass = Profile.class;
         Method testMethod = profileClass.getMethod("getById", int.class);
         Type testType = testMethod.getReturnType();
-        System.out.println(testType);
+        //System.out.println(testType);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class ProfileTest {
 
         ProfileRepo profileRepo = new ProfileRepo(profile);
         String profileId = profileRepo.getId(id);
-        System.out.println(profileId);
+        //System.out.println(profileId);
 
         assertEquals(profileId, "1002");
     }
