@@ -17,7 +17,7 @@ public class Collection {
 
         List<String> cars = new ArrayList<>();
         Set<String> animals = new HashSet<>();
-        HashMap<String, String> human = new HashMap<String, String>();
+        HashMap<String, String> human = new HashMap<>();
 
         cars.add("BMW");
         cars.add("Mercedes");
