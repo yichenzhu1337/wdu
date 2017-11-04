@@ -1,63 +1,66 @@
 Course Overview 1m 24s
-Course Overview 1m 24s
+-------------------------------------------------------
+Course Overview - 1m 24s
 
 Introduction and Setting up Your Environment - 17m 54s
 -------------------------------------------------------
-Introduction 13s
-What to Expect in This Course 1m 19s
-What to Expect in This Module 45s
-What Is Java 1m 29s
-JRE vs. JDK 1m 56s
-Demo: Setting up the JDK 2m 13s
-Integrated Development Environments (IDE) 2m 47s
-Demo: Setting up NetBeans IDE 3m 47s
-Demo Setting up IntelliJ IDEA Community Edition 2m 7s
-Summary 1m 15s
-Creating a Simple App 35m 31s
-Introduction 38s
-Demo: Creating Your First IntelliJ Project 4m 50s
-Demo: Running from the Command Line 5m 54s
-Statement Structure and Whitespace 2m 6s
-Comments 2m 6s
-Demo: Comments 3m 49s
-Introducing Packages 6m 32s
-Demo: Packages 3m 30s
-Creating and Running a NetBeans Project 4m 23s
-Summary 1m 39s
+Introduction - 13s
+What to Expect in This Course - 1m 19s
+What to Expect in This Module - 45s
+What Is Java - 1m 29s
+JRE vs. JDK - 1m 56s
+Demo: Setting up the JDK - 2m 13s
+Integrated Development Environments (IDE) - 2m 47s
+Demo: Setting up NetBeans IDE - 3m 47s
+Demo Setting up IntelliJ IDEA Community Edition - 2m 7s
+Summary - 1m 15s
+Creating a Simple App - 35m 31s
+Introduction - 38s
+Demo: Creating Your First IntelliJ Project - 4m 50s
+Demo: Running from the Command Line - 5m 54s
+Statement Structure and Whitespace - 2m 6s
+Comments - 2m 6s
+Demo: Comments - 3m 49s
+Introducing Packages - 6m 32s
+Demo: Packages - 3m 30s
+Creating and Running a NetBeans Project - 4m 23s
+Summary - 1m 39s
 
 Variables, Data Types, and Math Operators 31m 16s
 -------------------------------------------------------
-Introduction 30s
-Variables 4m 18s
-Primitive Data Types 4m 27s
-Primitive Types are Stored By-value 1m 19s
-Arithmetic Operators 5m 21s
-Operator Precedence 37s
-Demo: Operator Precedence 3m 56s
-Type Conversion 4m 9s
-Demo: Type Conversion 5m 10s
-Summary 1m 25s
+Introduction - 30s
+Variables - 4m 18s
+Primitive Data Types - 4m 27s
+Primitive Types are Stored By-value - 1m 19s
+Arithmetic Operators - 5m 21s
+Operator Precedence - 37s
+Demo: Operator Precedence - 3m 56s
+Type Conversion - 4m 9s
+Demo: Type Conversion - 5m 10s
+Summary - 1m 25s
 
 Conditional Logic, Looping, and Arrays 50m 28s
-Introduction 32s
-Conditional Logic and Relational Operators 2m 22s
-Conditional Assignment 1m 19s
-If-else Statement 2m 19s
-Block Statements 2m 43s
-Demo: Nested If-statements 2m 18s
-Block Statements and Variable Scope 1m 44s
-Logical Operators 3m 52s
-Demo: Logical and vs. Conditional Logical And 2m 16s
-Demo: CalcEngine 7m 17s
-Loops 6m 44s
-Arrays 2m 49s
-For-each Loop 1m 58s
-Switch Statement 3m 55s
-Demo: CalcEngine with Arrays, Loop, and Switch 6m 59s
-Summary 1m 14s
+-------------------------------------------------------
+Introduction - 32s
+Conditional Logic and Relational Operators - 2m 22s
+Conditional Assignment - 1m 19s
+If-else Statement - 2m 19s
+Block Statements - 2m 43s
+Demo: Nested If-statements - 2m 18s
+Block Statements and Variable Scope - 1m 44s
+Logical Operators - 3m 52s
+Demo: Logical and vs. Conditional Logical And - 2m 16s
+Demo: CalcEngine - 7m 17s
+Loops - 6m 44s
+Arrays - 2m 49s
+For-each Loop - 1m 58s
+Switch Statement - 3m 55s
+Demo: CalcEngine with Arrays, Loop, and Switch - 6m 59s
+Summary - 1m 14s
 
-Representing Complex Types with Classes40m 39s
-Introduction46s
+Representing Complex Types with Classes - 40m 39s
+-------------------------------------------------------
+Introduction- 46s
 Classes2m 42s
 Using Classes3m 47s
 Encapsulation and Access Modifiers1m 40s
