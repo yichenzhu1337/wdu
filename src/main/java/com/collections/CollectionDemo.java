@@ -1,9 +1,8 @@
 package com.collections;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 
-public class Collection {
+public class CollectionDemo {
 
     public static void main(String[] args) {
         int[] arr1;

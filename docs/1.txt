@@ -136,7 +136,7 @@ Throwing Exceptions and Custom Exceptions - 3m 45s
 CalcEngine with Exceptions - 8m 19s
 Summary - 1m 20s
 
-Working with Packages33m 14s
+Working with Packages - 33m 14s
 -------------------------------------------------------
 Introduction - 40s
 What Is a Package? - 1m 24s
@@ -148,7 +148,7 @@ Packages Act as a Unit of Distribution - 3m 23s
 Distributing CalcEngine as a Jar File - 8m 11s
 Summary - 1m 22s
 
-Creating Abstract Relationships with Interfaces34m 31s
+Creating Abstract Relationships with Interfaces - 34m 31s
 -------------------------------------------------------
 Introduction - 39s
 Introducing Interfaces & Implementing an Interface - 7m 37s

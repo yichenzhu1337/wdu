@@ -5,8 +5,7 @@ Videos
 - Java Fundamentals: The Java Language
 - Java Fundamentals: The Core Platform
 - Java Fundamentals: Object-oriented Design
-- interface and abstract
-
+- Java Interfaces and Abstraction
 - Java Fundamentals: Collections
 - Java Fundamentals: Generics
 - Java Fundamentals: Exception Handling

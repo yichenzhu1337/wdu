@@ -1,4 +1,4 @@
-package com.fundamentals.chapter1;
+package types;
 
 public class Main {
 

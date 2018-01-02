@@ -1,20 +1,14 @@
 package com.generics;
 
-public class Box<T> {
+public class BoxOne {
 
-    private T obj;
+    private Object obj;
 
-    public T getObj() {
-        return obj;
+    public Object getObj() {
+        return this.obj;
     }
 
-    public void setObj(T obj) {
+    public void setObj(Object obj) {
         this.obj = obj;
-    }
-
-    public <U extends Number> void inspect(U u) {
-        System.out.println("T: " + this.obj.getClass().getSimpleName());
-        System.out.println("U: " + u.getClass().getSimpleName());
-
     }
 }
