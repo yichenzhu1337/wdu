@@ -1,0 +1,171 @@
+Java Fundamentals: The Java Language
+=======================================================
+
+Course Overview 1m 24s
+-------------------------------------------------------
+Course Overview - 1m 24s
+
+Introduction and Setting up Your Environment - 17m 54s
+-------------------------------------------------------
+Introduction - 13s
+What to Expect in This Course - 1m 19s
+What to Expect in This Module - 45s
+What Is Java - 1m 29s
+JRE vs. JDK - 1m 56s
+Demo: Setting up the JDK - 2m 13s
+Integrated Development Environments (IDE) - 2m 47s
+Demo: Setting up NetBeans IDE - 3m 47s
+Demo Setting up IntelliJ IDEA Community Edition - 2m 7s
+Summary - 1m 15s
+Creating a Simple App - 35m 31s
+Introduction - 38s
+Demo: Creating Your First IntelliJ Project - 4m 50s
+Demo: Running from the Command Line - 5m 54s
+Statement Structure and Whitespace - 2m 6s
+Comments - 2m 6s
+Demo: Comments - 3m 49s
+Introducing Packages - 6m 32s
+Demo: Packages - 3m 30s
+Creating and Running a NetBeans Project - 4m 23s
+Summary - 1m 39s
+
+Variables, Data Types, and Math Operators 31m 16s
+-------------------------------------------------------
+Introduction - 30s
+Variables - 4m 18s
+Primitive Data Types - 4m 27s
+Primitive Types are Stored By-value - 1m 19s
+Arithmetic Operators - 5m 21s
+Operator Precedence - 37s
+Demo: Operator Precedence - 3m 56s
+Type Conversion - 4m 9s
+Demo: Type Conversion - 5m 10s
+Summary - 1m 25s
+
+Conditional Logic, Looping, and Arrays 50m 28s
+-------------------------------------------------------
+Introduction - 32s
+Conditional Logic and Relational Operators - 2m 22s
+Conditional Assignment - 1m 19s
+If-else Statement - 2m 19s
+Block Statements - 2m 43s
+Demo: Nested If-statements - 2m 18s
+Block Statements and Variable Scope - 1m 44s
+Logical Operators - 3m 52s
+Demo: Logical and vs. Conditional Logical And - 2m 16s
+Demo: CalcEngine - 7m 17s
+Loops - 6m 44s
+Arrays - 2m 49s
+For-each Loop - 1m 58s
+Switch Statement - 3m 55s
+Demo: CalcEngine with Arrays, Loop, and Switch - 6m 59s
+Summary - 1m 14s
+
+Representing Complex Types with Classes - 40m 39s
+-------------------------------------------------------
+Introduction- 46s
+Classes - 2m 42s
+Using Classes- 3m 47s
+Encapsulation and Access Modifiers - 1m 40s
+Applying Access Modifiers - 2m 47s
+Naming Classes - 1m 16s
+Method Basics - 2m 33s
+Exiting from a Method - 2m 32s
+Method Return Values - 4m 37s
+Special References: this and null - 2m 55s
+Demo: CalcEngine with Classes and Methods - 7m 43s
+Field Encapsulation, Accessors, and Mutators - 3m 9s
+Demo: CalcEngine with Accessor and Mutators - 2m 37s
+Summary - 1m 29s
+
+Class Initializers and Constructors - 27m 57s
+-------------------------------------------------------
+Introduction - 52s
+Establishing Initial State - 51s
+Field Initial State and Initializers - 3m 52s
+Constructor and Adding Multiple Constructors - 3m 44s
+Chaining Constructors and Constructor Visibility - 4m 57s
+Demo: CalcEngine with Field Initializers and Constructors - 5m 52s
+Initialization Blocks - 3m 59s
+Initialization and Construction Order- 2m 7s
+Summary - 1m 40s
+A Closer Look at Parameters - 31m 12s
+Introduction - 36s
+Parameter Immutability - 8m 14s
+Overloading - 2m 8s
+Overloading Walkthrough - 7m 32s
+Demo: CalcEngine with Method Overloading - 7m 34s
+Variable Number of Parameters - 4m 4s
+Summary - 1m 1s
+
+Class Inheritance - 47m 24s
+-------------------------------------------------------
+Introduction - 53s
+Inheritance Basics and Typed References - 4m 11s
+Member Hiding and Overriding - 6m 22s
+Object Class - 6m 11s
+Equality - 6m 21s
+Special Reference: Super - 3m 22s
+Using Final and Abstract - 5m 25s
+Inheritance and Constructors - 4m 30s
+CalcEngine with Specialized Classes - 7m 54s
+Summary - 2m 9s
+
+More About Data Types - 50m 40s
+-------------------------------------------------------
+Introduction - 42s
+String Class - 3m 57s
+String Equality - 4m 0s
+String Representation of Non-string Values - 3m 49s
+StringBuilder Class - 4m 14s
+Primitive Wrapper Classes and Type Conversions - 7m 23s
+Using Primitive Wrapper Classes - 3m 31s
+Wrapper Class Equality - 2m 35s
+Final Fields and Enumeration Types - 4m 20s
+CalcEngine with More Data Type Capabilities Part 1 - 10m 3s
+CalcEngine with More Data Type Capabilities Part 2 - 4m 38s
+Summary - 1m 24s
+
+Exceptions and Error Handling35m 58s
+-------------------------------------------------------
+Introduction - 31s
+Error Handling with Exceptions - 8m 46s
+Handling Exceptions by Type - 6m 16s
+Exceptions and Methods - 6m 58s
+Throwing Exceptions and Custom Exceptions - 3m 45s
+CalcEngine with Exceptions - 8m 19s
+Summary - 1m 20s
+
+Working with Packages33m 14s
+-------------------------------------------------------
+Introduction - 40s
+What Is a Package? - 1m 24s
+Packages Create a Namespace - 2m 16s
+Determining a Type's Package - 7m 9s
+Packages Provide Access Boundaries - 2m 8s
+Separating CalcEngine into Packages - 6m 38s
+Packages Act as a Unit of Distribution - 3m 23s
+Distributing CalcEngine as a Jar File - 8m 11s
+Summary - 1m 22s
+
+Creating Abstract Relationships with Interfaces34m 31s
+-------------------------------------------------------
+Introduction - 39s
+Introducing Interfaces & Implementing an Interface - 7m 37s
+Implementing a Generic Interface - 2m 13s
+Implementing Multiple Interfaces - 6m 56s
+Declaring an Interface - 1m 51s
+Dynamically Extending CalcEngine: Declare and Implement - 5m 31s
+Dynamically Extending CalcEngine: Add support - 5m 50s
+Dynamically Extending CalcEngine: New Functionality - 2m 41s
+Summary - 1m 9s
+
+Static Members, Nested Types, and Anonymous Classes - 27m 19s
+-------------------------------------------------------
+Introduction - 50s
+Static Members - 6m 10s
+Static Initialization Blocks - 5m 54s
+Nested Types - 5m 10s
+Inner Classes - 3m 28s
+Anonymous Classes - 3m 32s
+Summary - 2m 13s

@@ -1,3 +1,6 @@
+Java Fundamentals: Collections
+==================================================
+
 Duration 4h 2m
 
 1. What Are Collections and Why Use Them? 12m 13s
