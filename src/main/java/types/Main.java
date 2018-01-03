@@ -1,5 +1,7 @@
 package types;
 
+import java.math.BigInteger;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,5 +17,8 @@ public class Main {
 
         char c1;
         boolean b3;
+
+        Integer theInteger = 1;
+        BigInteger theBigInteger = new BigInteger("1123");
     }
 }
